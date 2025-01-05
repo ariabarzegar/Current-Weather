@@ -1,0 +1,80 @@
+body{
+    padding: 3rem;
+    background: #efefef;
+    background: linear-gradient(rgba(41, 41, 41, 0.8), rgba(41, 41, 41, 0.8)), url("../image/wolfgang-hasselmann-br-gllg7bs-unsplash-2_ver_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    height: calc(100vh - 6rem);
+    /* background-color: rgb(255 255 255); */
+    box-shadow: rgb(41 40 40 / 20%) 5px 2px 8px 0px;
+    display: flex;
+
+}
+.content-right{
+    width: 500px;
+    border-left: 2px solid rgba(83, 65, 65, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: none; */
+    background: rgba(22, 22, 22);
+    color: #ffff;
+}
+.content-input{
+    background: #f9f9f9;
+    width: 370px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.content-input input{
+    width: 300px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    outline: 0;
+    font-size: 20px;
+    background: #f9f9f9;
+}
+.content-input button{
+    height: 70px;
+    width: 62px;
+    border: none;
+    background: #dbba00;
+    font-size: 18px;
+    color: #757575;
+    cursor: pointer;
+}
+.location{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 5rem 0 1rem;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 2px solid #757575;
+    border-top: 2px solid #757575;
+    padding: 1.5rem 0;
+}
+.date,.lo-hi{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    border-bottom: 2px solid rgb(134 134 134);
+    border-top: 2px solid rgb(134 134 134);
+    padding: 1.5rem 0;
+    margin-bottom: 2rem;
+}
+span{
+    color: rgb(134 134 134);
+}
+.content-left{
+    flex: 1;
+    background: rgba(6, 1, 19, 0.9);
+ 
+}
